@@ -1,6 +1,6 @@
 import React from "react";
-import CV from "../../assets/John-Cv.pdf";
 import AboutImg from "../../assets/about.jpg";
+import CV from "../../assets/tanvir-cv.pdf";
 import Info from "./Info";
 import "./about.css";
 
@@ -14,9 +14,9 @@ const About = () => {
         <div className="about__data">
           <Info></Info>
           <p className="about__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            deserunt fugiat autem quos soluta placeat beatae cumque eligendi
-            maiores quam?
+            Passionate web developer, skilled in HTML, CSS, JavaScript, React,
+            Nodejs. Committed to crafting user-centric websites with a creative
+            touch. Enthusiastic about technology
           </p>
           <a href={CV} className="button button--flex">
             Download CV

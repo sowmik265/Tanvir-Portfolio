@@ -15,7 +15,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Designer <br /> Development
             </h3>
           </div>
           <span onClick={() => toggleTab(1)} className="services__button">
@@ -34,41 +34,34 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Designer Development</h3>
               <p className="services__modal-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
-                odit quia itaque, animi et dolore.
+                I specialize in crafting unique, visually appealing, and
+                functional websites tailored to your specific brand and business
+                needs
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
+                    Custom Website Creation
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p className="services__Modal-info">Responsive Design</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p className="services__Modal-info">Front-End Development</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p className="services__Modal-info">Back-End Development</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p className="services__Modal-info">Content Management</p>
                 </li>
               </ul>
             </div>
@@ -78,7 +71,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Ui/Ux <br /> Designer
+              Website Maintenance <br /> and Support
             </h3>
           </div>
           <span onClick={() => toggleTab(2)} className="services__button">
@@ -97,40 +90,37 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
+              <h3 className="services__modal-title">
+                Website Maintenance and Support
+              </h3>
               <p className="services__modal-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
-                odit quia itaque, animi et dolore.
+                I provide regular updates to keep your website's software,
+                plugins, and content management system (CMS) up-to-date,
+                ensuring optimal performance and security
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p className="services__Modal-info">Ongoing Updates</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
+                    Bug Fixes and Issue Resolution
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p className="services__Modal-info">Security Enhancements</p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__Modal-info">Content Management</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
+                    Performance Optimization:
                   </p>
                 </li>
               </ul>
@@ -141,7 +131,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Responsive <br /> Design
             </h3>
           </div>
           <span onClick={() => toggleTab(3)} className="services__button">
@@ -160,41 +150,34 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Responsive Design</h3>
               <p className="services__modal-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
-                odit quia itaque, animi et dolore.
+                I create websites that look and function flawlessly on a wide
+                range of devices, including smartphones, tablets, laptops, and
+                desktop computers
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
+                    Multi-Device Compatibility
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p className="services__Modal-info">Flexible Layouts</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p className="services__Modal-info">Mobile-First Approach</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p className="services__Modal-info">Fast Loading Times</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__Modal-info">
-                    Lorem ipsum dolor sit amet.
-                  </p>
+                  <p className="services__Modal-info">User-Centric Design</p>
                 </li>
               </ul>
             </div>
